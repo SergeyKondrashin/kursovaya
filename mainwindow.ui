@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>363</width>
+    <height>463</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Введите ФИО</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditFIO"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>Введите дату рождения</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDateEdit" name="dateEditBirthDate"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>Введите номер телефона</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditPhone"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>Введите направление</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBoxDoctors">
+          <item>
+           <property name="text">
+            <string>Терапевт</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Педиатр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Хирург</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Стоматолог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Отоларинголог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Офтальмолог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Кардиолог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Гинеколог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Невролог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Онколог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Эндокринолог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Аллерголог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Ревматолог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Гастроэнтеролог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Инфекционист</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Психиатр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Дерматолог</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>Введите дату приёма</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDateEdit" name="dateEditAppointmentDate"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>Введите время приёма</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBoxAppointmentTime">
+          <item>
+           <property name="text">
+            <string>8:00</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>9:00</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>10:00</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>11:00</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12:00</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>13:00</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14:00</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15:00</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>17:00</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>18:00</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>19:00</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>20:00</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonBookAppointment">
+        <property name="text">
+         <string>Получить талон</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="textEditOutput"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>363</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

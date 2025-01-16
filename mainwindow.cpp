@@ -12,8 +12,6 @@ MainWindow::MainWindow(QWidget *parent)
     , appointmentCount(0)
 {
     ui->setupUi(this);
-
-
     ui->dateEditAppointmentDate->setMinimumDate(QDate::currentDate());
 
 
@@ -42,6 +40,8 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButtonBookAppointment_clicked()
 {
+    ui->lineEditFIO->setInputMask("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+    ui->lineEditPhone->setInputMask("999-999-99-99");
     QString fio = ui->lineEditFIO->text();
     QString birthDate = ui->dateEditBirthDate->text();
     QString phone = ui->lineEditPhone->text();
@@ -53,7 +53,8 @@ void MainWindow::on_pushButtonBookAppointment_clicked()
         QMessageBox::warning(this, "Ошибка", "Пожалуйста, заполните все поля.");
         return;
     }
-
+    ui->lineEditFIO->setInputMask("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+    ui->lineEditPhone->setInputMask("999-999-99-99");
 
     QString filePath = QCoreApplication::applicationDirPath() + "/appointments.txt";
 
